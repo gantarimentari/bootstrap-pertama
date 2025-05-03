@@ -1,0 +1,234 @@
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  
+  min-height: 100vh;
+}
+header {
+  background-color: #F0A04B;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+header img {
+  width: 80px;
+  height: auto;
+}
+.nav-link {
+  font-weight: bold;
+  color: white;
+  
+  transition: all 0.3s ease;
+}
+.nav-link:hover {
+  color: #ffea00; 
+
+}
+
+.btn-login {
+  background-color: #ffea00;
+  border: none;
+  transition: all 0.3s ease;
+}
+.btn-login:hover {
+  background-color: #e6d200;
+  transform: translateY(-2px);
+}
+.satu {
+  color: white;
+  padding-top: 180px;
+  padding-bottom: 80px; 
+}
+.warna{
+  background: linear-gradient(225deg, #F0A04B, #c5d4b4);
+}
+.satu h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.satu p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.btn-adopt {
+  background-color: #ffea00;
+  padding: 12px 30px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 234, 0, 0.3);
+}
+
+.btn-adopt:hover {
+  background-color: #e6d200;
+  transform: translateY(-2px);
+}
+
+.dua {
+  background-color: #FCE7C8;
+  padding: 80px 5%;
+  min-height: 500px;
+  position: relative;
+}
+.dua h2{
+  font-size: 2.8rem;
+}
+.dua p{
+  font-size: 1.5rem;
+}
+.icon-paw {
+  position: absolute;
+  top: -153px;
+  left: 5%;
+  z-index: 3;
+}
+.icon-paw img{
+  width: 100%;
+  height: auto;
+}
+.foto-kucing{
+  max-width: 100%;
+  height: auto;
+}
+.tiga {
+  background: linear-gradient(to bottom, #FCE7C8, #F0A04B 60%);
+  padding: 80px 5%;
+  position: relative;
+}
+.tiga h2 {
+  color: #e38521;
+  font-size: 52px;
+  padding-bottom: 35px;
+  font-weight: bold;
+}
+.fitur-item {
+  background-color: #ebedea;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  height: 100%; 
+  border: none;
+}
+.fitur-item:hover {
+  transform: translateY(-10px);
+}
+.fitur-item img {
+  width: 80%;
+  border-radius: 15px;
+  margin: 15px auto;
+}
+.empat {
+  background: linear-gradient(to top, #FCE7C8 60%, #F0A04B);
+  padding: 80px 0;
+}
+.empat h2 {
+  font-weight: bold;
+  font-size: 52px;
+  margin-bottom: 50px;
+  color: #ebedea;
+}
+.fitur-testi-card {
+  background-color: #ebedea;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+.fitur-testi-card:hover {
+  transform: translateY(-10px);
+}
+.fitur-cus {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.enam {
+  background-color: #F0A04B;
+  padding: 80px 0;
+}
+
+.enam h2 {
+  font-size: 2.5rem;
+  color: white;
+  font-style: italic;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.question {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: white;
+}
+
+.answer {
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 20px;
+}
+.cta-section {
+  background-color: #FCE7C8;
+  padding: 70px 0;
+}
+
+.cta-section h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.cta-button-container {
+  position: relative;
+  display: inline-block;
+}
+.kucing-hitam {
+  max-width: 200px;
+  height: auto;
+}
+.paw-hand {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  width: 60px;
+}
+
+/* Footer */
+footer {
+  background-color: #F0A04B;
+  padding: 50px 5%;
+}
+.about {
+  max-width: 400px;
+}
+footer section {
+  min-width: 200px;
+}
+footer h3 {
+  font-size: 1.25rem;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+footer p, footer a {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: white;
+}
